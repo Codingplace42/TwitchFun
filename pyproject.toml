@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "twitchfun"
+version = "0.1.0"
+description = ""
+authors = ["Codingplace42 <jangascodingplace@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Django = "^3.2.4"
+djangorestframework = "^3.12.4"
+python-dotenv = "^0.18.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
